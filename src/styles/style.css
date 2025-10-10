@@ -1,25 +1,25 @@
 @import url('./global.css');
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px;
 }
 
-.nav-header ul{
+.nav-header ul {
     display: flex;
     gap: 30px;
     list-style: none;
 }
 
-.nav-header ul li a{
+.nav-header ul li a {
     color: var(--color-secondary-dark);
     text-decoration: none;
     font-family: var(--font-body);
 }
 
-.btn-header{
+.btn-header {
     background-color: var(--color-primary-orange);
     padding: 12px 30px;
     border-radius: 15px 3px;
@@ -29,31 +29,31 @@ header{
     font-size: var(--font-button-size);
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
-    align-items: center;   
-    gap: 80px; 
+    align-items: center;
+    gap: 80px;
     padding: 60px 0px;
 }
 
-.content-main{
+.content-main {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-h1{
+h1 {
     font-size: var(--font-headline-h1-size);
     font-family: var(--font-title);
     width: 562px;
 }
 
-.highlighted-word{
+.highlighted-word {
     color: var(--color-primary-orange);
 }
 
-.content-main p{
+.content-main p {
     font-size: var(--font-body-size);
     color: var(--color-secondary-l-gray);
     font-family: var(--font-body);
@@ -61,12 +61,12 @@ h1{
     line-height: 30px;
 }
 
-.container-btn-main{
+.container-btn-main {
     display: flex;
     gap: 20px;
 }
 
-.section-differences{
+.section-differences {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,36 +75,36 @@ h1{
     padding: 60px 0px;
 }
 
-.differences-cards-container{
+.differences-cards-container {
     display: flex;
-    gap: 70px;  
+    gap: 70px;
 }
 
-.differences-card{
+.differences-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 20px;
     border: 1px solid var(--color-secondary-l-gray);
-    border-radius: 10px;     
-    text-align: center;   
+    border-radius: 10px;
+    text-align: center;
 }
 
-.differences-card h3{
+.differences-card h3 {
     font-family: var(--font-title);
     font-size: var(--font-headline-h3-size);
-    width:  181px;   
+    width: 181px;
 }
 
-.differences-card p{
+.differences-card p {
     width: 227px;
     font-family: var(--font-body);
     color: var(--color-secondary-l-gray);
     line-height: 30px;
 }
 
-.section-chef{
+.section-chef {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,25 +112,25 @@ h1{
     padding: 60px 0px;
 }
 
-.content-chef{
+.content-chef {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.content-chef h2{
+.content-chef h2 {
     width: 433px;
     line-height: 60px;
 }
 
-.content-chef p{
+.content-chef p {
     font-family: var(--font-body);
     color: var(--color-secondary-l-gray);
     width: 503px;
     line-height: 30px;
 }
 
-.section-featured-dishes{
+.section-featured-dishes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,14 +139,14 @@ h1{
     padding: 60px 0px;
 }
 
-.container-cards-dishes{
+.container-cards-dishes {
     display: flex;
     justify-content: center;
     gap: 25px;
     padding-top: 101px;
 }
 
-.card-dishes{    
+.card-dishes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,53 +157,53 @@ h1{
     border-radius: 20px 5px;
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
-    padding: 123px 15px 45px 15px;  
-    position: relative;  
+    padding: 123px 15px 45px 15px;
+    position: relative;
 }
 
-.card-dishes img{
+.card-dishes img {
     position: absolute;
     top: -101px;
 }
 
-.card-dishes h3{
+.card-dishes h3 {
     font-size: var(--font-headline-h3-size);
     font-family: var(--font-title);
     width: 174px;
 }
 
-.card-dishes p{
+.card-dishes p {
     font-family: var(--font-body);
     line-height: 30px;
     color: var(--color-secondary-l-gray);
     width: 271px;
 }
 
-.section-our-environments{
+.section-our-environments {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     gap: 25px;
     padding: 60px;
 }
 
-.container-environments{
-    display: flex;        
+.container-environments {
+    display: flex;
     gap: 20px;
 }
 
-.container-environments-left{
+.container-environments-left {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-.container-environments-left div{
+.container-environments-left div {
     display: flex;
     gap: 29px;
 }
 
-.section-our-reviews{
+.section-our-reviews {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -212,41 +212,100 @@ h1{
     background-color: var(--color-primary-orange-10);
 }
 
-.container-reviews{
+.container-reviews {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-.card-reviews{
+.card-reviews {
     display: flex;
     flex-direction: column;
     gap: 10px;
     background-color: var(--color-secondary-white);
     border-radius: 40px 8px;
     padding: 25px 20px;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25); 
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
-.client-review{
+.client-review {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.client-name{
+.client-name {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.client-name h3{
+.client-name h3 {
     font-family: var(--font-title);
     font-size: var(--font-headline-h4-size);
 }
 
-.card-reviews p{
+.card-reviews p {
     font-family: var(--font-body);
     width: 358px;
     color: var(--color-secondary-dark);
+}
+
+.section-reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 60px 0px;
+}
+
+.container-reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-input label {
+    font-family: var(--font-body);
+}
+
+.box-input input {
+    border: 1px solid #5C6574;
+    height: 35px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.container-box-input{
+    display: flex;
+    gap: 10px;
+}
+
+.container-box-input input{
+    width: 220px;
+}
+
+textarea{
+    border: 1px solid #5C6574;
+    height: 100px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+form button{
+    align-self: flex-start;
+    cursor: pointer;
 }
